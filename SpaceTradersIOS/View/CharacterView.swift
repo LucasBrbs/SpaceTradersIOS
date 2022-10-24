@@ -10,7 +10,6 @@ import SwiftUI
 import Foundation
 
 class CharacterView: UIView {
-    
     private lazy var nameAccount: UILabel = {
         var nameLogin = UILabel()
         nameLogin.text = "Name: None"

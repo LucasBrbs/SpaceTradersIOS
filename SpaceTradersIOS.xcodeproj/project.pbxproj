@@ -12,7 +12,6 @@
 		FC347EEC28F599480051693D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347EEB28F599480051693D /* ViewController.swift */; };
 		FC347EF128F599490051693D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC347EF028F599490051693D /* Assets.xcassets */; };
 		FC347EF428F599490051693D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC347EF228F599490051693D /* LaunchScreen.storyboard */; };
-		FC347EFF28F599490051693D /* SpaceTradersIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347EFE28F599490051693D /* SpaceTradersIOSTests.swift */; };
 		FC347F0928F599490051693D /* SpaceTradersIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347F0828F599490051693D /* SpaceTradersIOSUITests.swift */; };
 		FC347F0B28F599490051693D /* SpaceTradersIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347F0A28F599490051693D /* SpaceTradersIOSUITestsLaunchTests.swift */; };
 		FC347FAC28FAD7CA0051693D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347FAB28FAD7CA0051693D /* CharacterView.swift */; };
@@ -20,7 +19,11 @@
 		FC347FB128FAD9770051693D /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347FB028FAD9770051693D /* ViewCodeConfiguration.swift */; };
 		FC347FF128FD86990051693D /* LoansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC347FF028FD86990051693D /* LoansCollectionViewCell.swift */; };
 		FC347FF428FEE69E0051693D /* spaceship.json in Resources */ = {isa = PBXBuildFile; fileRef = FC347FF328FEE69E0051693D /* spaceship.json */; };
-		FC347FF728FEED1B0051693D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FC347FF628FEED1B0051693D /* Lottie */; };
+		FC347FFD29016D3F0051693D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FC347FFC29016D3F0051693D /* Lottie */; };
+		FC3480032902BFF00051693D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3480022902BFF00051693D /* API.swift */; };
+		FC3480052902C1020051693D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3480042902C1020051693D /* APIEndpoint.swift */; };
+		FC3480072902C1C20051693D /* HTTPSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3480062902C1C20051693D /* HTTPSessionProtocol.swift */; };
+		FC3480092902C2A10051693D /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3480082902C2A10051693D /* AccountModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,6 @@
 		FC347EF328F599490051693D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC347EF528F599490051693D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC347EFA28F599490051693D /* SpaceTradersIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTradersIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC347EFE28F599490051693D /* SpaceTradersIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTradersIOSTests.swift; sourceTree = "<group>"; };
 		FC347F0428F599490051693D /* SpaceTradersIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTradersIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC347F0828F599490051693D /* SpaceTradersIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTradersIOSUITests.swift; sourceTree = "<group>"; };
 		FC347F0A28F599490051693D /* SpaceTradersIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceTradersIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -58,6 +60,10 @@
 		FC347FB028FAD9770051693D /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
 		FC347FF028FD86990051693D /* LoansCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC347FF328FEE69E0051693D /* spaceship.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spaceship.json; sourceTree = "<group>"; };
+		FC3480022902BFF00051693D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FC3480042902C1020051693D /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		FC3480062902C1C20051693D /* HTTPSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPSessionProtocol.swift; sourceTree = "<group>"; };
+		FC3480082902C2A10051693D /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC347FF728FEED1B0051693D /* Lottie in Frameworks */,
+				FC347FFD29016D3F0051693D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +115,7 @@
 		FC347EE628F599480051693D /* SpaceTradersIOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC3480012902BD480051693D /* Services */,
 				FC347FF228FEE5380051693D /* Assets */,
 				FC347FAF28FAD90A0051693D /* Protocol */,
 				FC347FAA28FAD74F0051693D /* View */,
@@ -126,7 +133,6 @@
 		FC347EFD28F599490051693D /* SpaceTradersIOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC347EFE28F599490051693D /* SpaceTradersIOSTests.swift */,
 			);
 			path = SpaceTradersIOSTests;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 		FC347FA828FAD7310051693D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC3480082902C2A10051693D /* AccountModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +188,16 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		FC3480012902BD480051693D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC3480022902BFF00051693D /* API.swift */,
+				FC3480042902C1020051693D /* APIEndpoint.swift */,
+				FC3480062902C1C20051693D /* HTTPSessionProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,7 +216,7 @@
 			);
 			name = SpaceTradersIOS;
 			packageProductDependencies = (
-				FC347FF628FEED1B0051693D /* Lottie */,
+				FC347FFC29016D3F0051693D /* Lottie */,
 			);
 			productName = SpaceTradersIOS;
 			productReference = FC347EE428F599480051693D /* SpaceTradersIOS.app */;
@@ -256,6 +273,7 @@
 					};
 					FC347EF928F599490051693D = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 						TestTargetID = FC347EE328F599480051693D;
 					};
 					FC347F0328F599490051693D = {
@@ -274,7 +292,7 @@
 			);
 			mainGroup = FC347EDB28F599480051693D;
 			packageReferences = (
-				FC347FF528FEED1B0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FC347FFB29016D3F0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = FC347EE528F599480051693D /* Products */;
 			projectDirPath = "";
@@ -340,11 +358,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC347FB128FAD9770051693D /* ViewCodeConfiguration.swift in Sources */,
+				FC3480052902C1020051693D /* APIEndpoint.swift in Sources */,
 				FC347EEC28F599480051693D /* ViewController.swift in Sources */,
 				FC347FF128FD86990051693D /* LoansCollectionViewCell.swift in Sources */,
+				FC3480072902C1C20051693D /* HTTPSessionProtocol.swift in Sources */,
 				FC347EE828F599480051693D /* AppDelegate.swift in Sources */,
 				FC347FAC28FAD7CA0051693D /* CharacterView.swift in Sources */,
 				FC347FAE28FAD7FF0051693D /* LoginViewController.swift in Sources */,
+				FC3480092902C2A10051693D /* AccountModel.swift in Sources */,
+				FC3480032902BFF00051693D /* API.swift in Sources */,
 				FC347EEA28F599480051693D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC347EFF28F599490051693D /* SpaceTradersIOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,15 +587,23 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V7A578M95D;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbrbs.SpaceTradersIOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpaceTradersIOSTests/SpaceTradersIOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTradersIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTradersIOS";
@@ -586,15 +615,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V7A578M95D;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasbrbs.SpaceTradersIOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SpaceTradersIOSTests/SpaceTradersIOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceTradersIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpaceTradersIOS";
@@ -679,20 +715,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FC347FF528FEED1B0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		FC347FFB29016D3F0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FC347FF628FEED1B0051693D /* Lottie */ = {
+		FC347FFC29016D3F0051693D /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC347FF528FEED1B0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			package = FC347FFB29016D3F0051693D /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
